@@ -17,8 +17,8 @@ export default function Hero() {
         <div className="flex justify-between items-center absolute text-[#ECC55C] text-[16px] font-light tracking-wider w-[845px] h-[89px] top-[50px] sm:top-[39px] sm:w-64 sm:left-[156px]">
           <img src="./assets/logo.svg" alt="" className="sm:w-[138px] sm:h-[96.98px]" />
           <div className="sm:hidden">
-            <a href="https://tayyab-repo-9wd1.vercel.app/pages/login"><button className="mr-[20px]">LOG IN</button></a>
-            <a href="https://tayyab-repo-9wd1.vercel.app/pages/register">
+            <a href="https://eiternal.com/pages/login/?admin=admin"><button className="mr-[20px]">LOG IN</button></a>
+            <a href="https://eiternal.com/pages/register/?admin=admin">
               <button className="border border-[#ECC55C] px-[32px] py-[15px]">SIGN UP</button>
             </a>
           </div>
@@ -31,10 +31,10 @@ export default function Hero() {
 
         {menuOpen && (
           <div className="absolute top-[10px] left-0 bg-[#1E1C30] z-30 flex flex-col items-center justify-center space-y-4 sm:w-[450px] sm:h-[400px]">
-            <a href="https://tayyab-repo-9wd1.vercel.app/pages/login">
+            <a href="https://eiternal.com/pages/login/?admin=admin">
               <button className="border border-[#ECC55C] px-[32px] py-[15px] sm:w-[390px] text-[#ECC55C]">LOG IN</button>
             </a>
-            <a href="https://tayyab-repo-9wd1.vercel.app/pages/register">
+            <a href="https://eiternal.com/pages/register/?admin=admin">
               <button className="border border-[#ECC55C] px-[32px] py-[15px] sm:w-[390px] text-[#ECC55C]">SIGN UP</button>
             </a>
           </div>
@@ -52,7 +52,7 @@ export default function Hero() {
               Eiternal helps take the stress out of organizing while you're trying
               to process your grief.
             </p>
-            <a href="https://tayyab-repo-9wd1.vercel.app/pages/register">
+            <a href="https://eiternal.com/pages/register/?admin=admin">
               <button className="w-[171px] h-[52px] mt-[37px] text-[#ECC55C] border border-[#ECC55C] flex items-center justify-center gap-[10px] tracking-[0.2em] sm:w-[350px] sm:h-[69px] sm:absolute sm:top-[739px] sm:left-[50px] sm:text-[26px]">
                 SIGN UP <img src="./assets/p1-yellowarrow.svg" alt="" />
               </button>
